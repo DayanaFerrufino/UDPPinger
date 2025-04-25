@@ -8,7 +8,7 @@
 ## 1. Clone & Navigate
 ~~~bash
 git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>/430-Project
+cd <your-repo>/410-Project
 ~~~
 
 ## 2. Part A: UDP Ping
