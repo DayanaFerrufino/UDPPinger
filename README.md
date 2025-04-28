@@ -1,3 +1,8 @@
+## Group Member
+- Chenilyn Espineda
+- Dayana Ferrufino
+- Nicole Balay
+
 # Running the Complete UDP Pinger & Heartbeat Project
 
 ## Prerequisites
