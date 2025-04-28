@@ -29,4 +29,5 @@ cd <your-repo>/410-Project
    - `RTT: …` times  
    - `Request timed out` for lost packets
 
-![screenshot-partA](https://github.com/user-attachments/assets/a92056d2-2e84-43ef-88cb-606eb2955b88)
+![image](https://github.com/user-attachments/assets/f2ee68f6-77ca-4087-add8-20dc3faf944a)
+
