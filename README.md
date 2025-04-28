@@ -1,4 +1,4 @@
-## Group Member
+## Group Members
 - Chenilyn Espineda
 - Dayana Ferrufino
 - Nicole Balay
