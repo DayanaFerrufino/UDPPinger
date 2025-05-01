@@ -120,4 +120,4 @@ cd <your-repo>/410-Project
    Packet Loss Rate: <value>%
    ~~~
 
-![Screenshot 2025-04-30 114453](https://github.com/user-attachments/assets/1f2bac6f-0869-4d9d-985b-10773c2b82b6)
+![Screenshot 2025-04-30 114453](https://github.com/DayanaFerrufino/UDPPinger/blob/main/PartC/partC.png)
