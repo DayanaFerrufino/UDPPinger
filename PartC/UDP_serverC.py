@@ -57,7 +57,7 @@ while True:
             lostPackets += 1
             print(f"Request timed out for heartbeat {seqNum}")
         else:
-            print(f"Received from {host} : bytes={byte} sequence number={seqNum} time={delay}ms")
+            print(f"Received from {host}: bytes={byte} sequence number={seqNum} time={delay}ms")
 
     except timeout:
 
