@@ -97,7 +97,7 @@ cd <your-repo>/410-Project
    cd PartC
    python UDP_clientC.py
    ~~~
-3. **Verify output**  
+3. **Verify server output**  
    
    ****Successful Heartbeat Received****
    ~~~
@@ -118,6 +118,13 @@ cd <your-repo>/410-Project
    ~~~
    Average Delay: <value>ms
    Packet Loss Rate: <value>%
+   ~~~
+
+4. **Verify client output**
+
+   ****Sending Heartbeat Message****
+   ~~~
+   Sent heartbeat <sequence number> at <timestamp>
    ~~~
 
 ![Screenshot 2025-04-30 114453](https://github.com/DayanaFerrufino/UDPPinger/blob/main/PartC/partC.png)
