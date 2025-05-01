@@ -34,7 +34,7 @@ cd <your-repo>/410-Project
    - `RTT: …` times  
    - `Request timed out` for lost packets
 
-![image](https://github.com/user-attachments/assets/f2ee68f6-77ca-4087-add8-20dc3faf944a)
+![Screenshot 2025-04-30 112410](https://github.com/user-attachments/assets/847e3aea-2e50-4b4a-b28b-4049536cfbe9)
 
 ## 2. Part B: UDP Ping w/ Stats
 
@@ -59,6 +59,5 @@ cd <your-repo>/410-Project
    - `Average RTT:` <value> seconds
    - `Packet loss rate:` <value>%
 
-![image](https://github.com/user-attachments/assets/b84ac36f-88ee-497d-83be-61b36377fe96)
-
+![Screenshot 2025-04-30 114453](https://github.com/user-attachments/assets/1f2bac6f-0869-4d9d-985b-10773c2b82b6)
 
