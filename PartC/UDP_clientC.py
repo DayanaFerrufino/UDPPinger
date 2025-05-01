@@ -1,20 +1,34 @@
-import socket, time
+from socket import *
+from time import time, ctime, sleep
 
-sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-server_addr = ('localhost', 12000)
-interval = 1.0 #seconds between heartbeats
+# Server's IP Address and Port Number
+serverName = 'localhost'
+serverPort = 12000
 
-try:
-   
-    for seq in range(1, 11):
-        sent_ts = time.time()
-        message = f"{seq} {sent_ts}"
-        
-        sock.sendto(message.encode('utf-8'), server_addr)
-        
-        print(f"Sent heartbeat {seq} at {time.ctime(sent_ts)}")
-        time.sleep(interval)
+# Create a UDP socket for server
+clientSocket = socket(AF_INET, SOCK_DGRAM)
 
-finally:
-    print("closing socket")
-    sock.close()
+# Interval between heartbeats is 1 second
+interval = 1
+
+# Divider for sending heartbeat
+print("\n\n--------------- Sending Heartbeats ----------------\n")
+
+for seqNum in range(1, 11):
+
+    # Record the current time before sending the message
+    timestamp = time()
+    message = f"{seqNum} {timestamp}"
+    
+    # Send the heartbeat message to the server
+    clientSocket.sendto(message.encode('utf-8'), (serverName, serverPort))
+    
+    # Display sent message
+    print(f"Sent heartbeat {seqNum} at {ctime(timestamp)}")
+    sleep(interval)
+
+# Close the socket when all ping messages are sent
+print("\n\nClosing Socket")
+print("\n---------------------------------------------------\n\n")
+clientSocket.close()
+
